@@ -21,9 +21,9 @@ input[type="text"] {
 }
 
 input[type="checkbox"] {
-    width: 5%;
-    padding: 0px;
-    margin: 0px;
+    width: 5% !important;
+    margin-top: 0px !important;
+    margin-right: 10px !important;
 }
 
 /* Inputs & Select */
