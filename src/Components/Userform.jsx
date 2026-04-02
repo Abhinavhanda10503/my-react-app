@@ -16,14 +16,14 @@ function UserForm({ onSubmit, defaultValues = {} }) {
             <form onSubmit={handleSubmit(onSubmit)}>
 
                 {/* First Name */}
-                <input
+                <input type="text"
                     placeholder="First Name"
                     {...register("firstName", { required: "First name is required" })}
                 />
                 {errors.firstName && <p className="error">{errors.firstName.message}</p>}
 
                 {/* Email */}
-                <input
+                <input type="email"
                     placeholder="Email"
                     {...register("email", {
                         required: "Email is required",
@@ -54,8 +54,8 @@ function UserForm({ onSubmit, defaultValues = {} }) {
                 {/* Extra Fields */}
                 {showExtra && (
                     <>
-                        <input placeholder="Height" {...register("height")} />
-                        <input placeholder="Weight" {...register("weight")} />
+                        <input type="text" placeholder="Height" {...register("height")} />
+                        <input type="text" placeholder="Weight" {...register("weight")} />
                     </>
                 )}
 

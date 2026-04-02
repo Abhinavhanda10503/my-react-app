@@ -1,70 +1,81 @@
 /* Form Container */
 .form-container {
-  max-width: 400px;
-  margin: 30px auto;
-  padding: 20px;
-  background-color: #ffffff;
-  border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-  font-family: Arial, sans-serif;
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    font-family: Arial, sans-serif;
 }
 
 /* Form Title (optional) */
 .form-title {
-  text-align: center;
-  margin-bottom: 20px;
-  color: #1e293b;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1e293b;
+}
+
+input[type="email"],
+input[type="text"] {
+    width: 94% !important;
+}
+
+input[type="checkbox"] {
+    width: 5%;
+    padding: 0px;
+    margin: 0px;
 }
 
 /* Inputs & Select */
 .form-container input,
 .form-container select {
-  width: 100%;
-  padding: 10px;
-  margin-top: 10px;
-  border: 1px solid #cbd5e1;
-  border-radius: 6px;
-  font-size: 14px;
-  outline: none;
-  transition: 0.2s;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 14px;
+    outline: none;
+    transition: 0.2s;
 }
 
 /* Focus effect */
 .form-container input:focus,
 .form-container select:focus {
-  border-color: #0ea5e9;
-  box-shadow: 0 0 0 2px rgba(14, 165, 233, 0.2);
+    border-color: #0ea5e9;
+    box-shadow: 0 0 0 2px rgba(14, 165, 233, 0.2);
 }
 
 /* Error message */
 .error {
-  color: red;
-  font-size: 12px;
-  margin-top: 4px;
+    color: red;
+    font-size: 12px;
+    margin-top: 4px;
 }
 
 /* Checkbox section */
 .checkbox-group {
-  display: flex;
-  align-items: center;
-  margin-top: 15px;
-  gap: 8px;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    gap: 0px;
 }
 
 /* Button */
 .submit-btn {
-  width: 100%;
-  margin-top: 20px;
-  padding: 10px;
-  background-color: #0ea5e9;
-  color: white;
-  border: none;
-  border-radius: 6px;
-  font-size: 15px;
-  cursor: pointer;
-  transition: 0.3s;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #0ea5e9;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
 .submit-btn:hover {
-  background-color: #0284c7;
+    background-color: #0284c7;
 }
