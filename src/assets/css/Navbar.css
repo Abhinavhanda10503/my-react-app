@@ -1,0 +1,43 @@
+/* Navbar Container */
+nav {
+  background-color: #1e293b;
+  padding: 12px 20px;
+}
+
+/* Remove default list styling */
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+/* List items */
+nav ul li {
+  display: inline;
+}
+
+/* Links */
+nav ul li a {
+  text-decoration: none;
+  color: #e2e8f0;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 6px 10px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+nav ul li a:hover {
+  background-color: #334155;
+  color: #ffffff;
+}
+
+/* Active link (optional improvement) */
+nav ul li a.active {
+  background-color: #0ea5e9;
+  color: white;
+}
